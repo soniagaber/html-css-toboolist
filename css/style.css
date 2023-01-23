@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0 10px 15px;
+}
+
+img,
+h1 {
+    vertical-align: middle;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F6F8F9;
+    ;
+}
+
+h1 {
+    display: inline-block;
+    line-height: 100%;
+    vertical-align: center;
+}
+
+#contenitore1 {
+    background-color: white;
+    width: 70%;
+    margin: 35px auto 0;
+    border-radius: 5px 5px 0px 0px;
+    padding-left: 50px;
+}
+
+nav {
+    padding-top: 11px;
+    padding-bottom: 7px;
+}
+
+#contenitore2 {
+    background-color: white;
+    width: 70%;
+    margin: 1px auto 0;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 50px;
+}
+
+article div {
+    margin-top: 12px;
+    color: #4F535B;
+}
+
+h2 {
+    color: #4F535B;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+#first-title {
+    padding-top: 18px;
+    margin-top: 2px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#btn1 {
+    color: white;
+    background-color: #46ACF0;
+    border: none;
+
+}
+
+#btn2 {
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.done {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.missing {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.elementoLista {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.badge {
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 4px 7px;
+}
+
+.editorial {
+    background-color: #44AAE9;
+}
+
+.goals {
+    background-color: #A27CE6;
+}
+
+.recruiting {
+    background-color: #63BFA8;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales {
+    background-color: #AEC725;
+}
+
+#last-row {
+    padding-bottom: 20px;
+}

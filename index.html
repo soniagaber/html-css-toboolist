@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,60 @@
     <title>Toboolist</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- inizio header con logo Toboolist -->
     <header>
-
+        <img src="img/Logo.png" alt="logo">
+        <h1>Toboolist</h1>
     </header>
 
     <!-- fine header e inizio main -->
     <main>
         <!-- inizio blocco smarginato ai lati -->
-        <div>
+        <div id="contenitore1">
             <!-- nav con bottoni add tast e add section -->
             <nav>
-
+                <button id="btn1">Add Task</button>
+                <button id="btn2">Add section</button>
             </nav>
-            <!-- blocco contenente tutta la todolist -->
-            <section>
-                <!-- article new task -->
-                <article>
-
-                </article>
-                <!-- article today -->
-                <article>
-
-                </article>
-                <!-- article upcoming -->
-                <article>
-
-                </article>
-            </section>
+        </div>
+        <!-- blocco contenente tutta la todolist -->
+        <div id="contenitore2">
+            <!-- article new task -->
+            <article>
+                <h2 id="first-title">&#9662 New Task</h2>
+                <div><span class="done">&#10003</span> <span class="elementoLista">Quarterly Newsletter</span> <span
+                        class="badge editorial">Editorial</span></div>
+            </article>
+            <!-- article today -->
+            <article>
+                <h2>&#9662 Today</h2>
+                <div><span class="done">&#10003</span> <span class="elementoLista">Recruiting blog post</span> <span
+                        class="badge editorial">Editorial</span></div>
+                <div><span class="done">&#10003</span> <span class="elementoLista">Mobile app lauch</span> <span
+                        class="badge goals">Q1 Goals</span></div>
+                <div><span class="missing">&#10005</span> <span class="elementoLista">Interview John H.</span> <span
+                        class="badge recruiting">Recruiting</span></div>
+                <div><span class="done">&#10003</span> <span class="elementoLista">Summit update to mobile
+                        storefronts</span> <span class="badge mobile">Mobile</span></div>
+            </article>
+            <!-- article upcoming -->
+            <article>
+                <h2>&#9662 Upcoming</h2>
+                <div><span class="missing">&#10005</span> <span class="elementoLista">Schedule meeting with Alex</span>
+                </div>
+                <div><span class="done">&#10003</span> <span class="elementoLista">Homepage refresh</span> <span
+                        class="badge website">Website</span></div>
+                <div><span class="done">&#10003</span> <span class="elementoLista">Onboard new sales team members</span>
+                    <span class="badge sales">Sales</span></div>
+                <div id="last-row"><span class="done">&#10003</span> <span class="elementoLista">Review editorial
+                        calendar</span> <span class="badge editorial">Editorial</span></div>
+            </article>
         </div>
 
     </main>
-    
+
 </body>
+
 </html>
